@@ -1,6 +1,6 @@
 # Primeira opção: Proof-of-Work (PoW)
 
- Algoritimo de consenso são validadores, um termo usado para escolher estre os mineradores ou os stakers como no caso do etherun2.0
+ Algoritimo de consenso são validadores, um termo usado para escolher entre os mineradores ou os stakers como no caso do etherun2.0
  o (pow) escolhe aquele que ira ordenar o bloco e por sua vez ganhar a recompensa do bloco, porem isso e baseado no poder computacional
  onde o primeiro a resolver uma charada e o escolhido adicionando assim novos blocos a blockchain.
 
