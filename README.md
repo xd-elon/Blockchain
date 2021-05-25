@@ -1,3 +1,25 @@
+# O que é o blockchain?
+
+O blockchain é uma tecnologia de manutenção de registros e de aplicação de contrato que usa criptografia para tornar extremamente difícil alterar o histórico anterior. Ele permite que os participantes compartilhem fluxos de trabalho por meio do acompanhamento das alterações em um razão compartilhado.
+
+# Banco de dados distribuído
+
+E se cada participante puder ter uma cópia própria do banco de dados? Um banco de dados distribuído usa várias cópias de um banco de dados e as alterações são sincronizadas
+
+# Por que não usar um banco de dados centralizado?
+
+ eles precisam confiar no proprietário do banco de dados para não modificar os dados históricos por qualquer motivo
+
+# O que é um hash
+
+O hash, também conhecido como checksum ou assinatura digital, é uma informação que resulta do cálculo feito por um algorítmo de criptografia em um arquivo fornecido.
+
+O algorítmo lê todos os bits de um arquivo e calcula uma informação única e exclusiva que representa o mesmo arquivo. É como se ele calculasse o DNA do arquivo, onde cada arquivo diferente possui o seu e nunca dois arquivos com conteúdos diferentes possuirão o mesmo DNA.
+
+Isso significa que ao ler o mesmo arquivo novamente, ele irá resultar na mesma assinatura digital. Caso seja calculado uma assinatura digital diferente, significa que o arquivo sofreu alterações.
+
+alcular a assinatura digital dos documentos é o SHA256, que é o mesmo algorítmo presente nos certificados e-CPF e e-CNPJ homologados pelo governo.
+
 # Primeira opção: Proof-of-Work (PoW)
 
  Algoritimo de consenso são validadores, um termo usado para escolher entre os mineradores ou os stakers como no caso do etherun2.0
