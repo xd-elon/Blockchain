@@ -6,6 +6,14 @@ O blockchain é uma tecnologia de manutenção de registros e de aplicação de 
 
 E se cada participante puder ter uma cópia própria do banco de dados? Um banco de dados distribuído usa várias cópias de um banco de dados e as alterações são sincronizadas
 
+A vantagem do banco de dados distribuído é que cada participante tem uma cópia do banco de dados. Na maioria dos casos, é mais fácil controlar o acesso e integrar seus sistemas e processos em sua cópia de um banco de dados. No entanto, a sincronização de alterações em cada banco de dados é necessária. Lidar com falhas e conflitos pode adicionar complexidade e problemas de integridade de dados.
+
+# Razão distribuído
+
+A tecnologia blockchain é conhecida como um Razão distribuído. Assim como um livro contábil, o Razão distribuído é um histórico de transações. Cada transação no razão afeta o estado final.
+
+As redes de blockchain distribuídas entre os participantes são chamadas de rede do consórcio. A rede do consórcio fornece a cada parceiro visibilidade sobre toda transação que ocorre na rede.
+
 # Por que não usar um banco de dados centralizado?
 
  eles precisam confiar no proprietário do banco de dados para não modificar os dados históricos por qualquer motivo

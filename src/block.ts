@@ -1,38 +1,31 @@
 import SHA256 from "crypto-js/sha256"
 
-export default class CryptoBlock{
+export default class Block{
 
    // VARIABLES
    Index: number
-   Timestamp: Date
+   Timestamp: string
    Data: any
    Hash: string
-   PreviousHash: string
-   Nonce: number
-   Duration: number
 
-   constructor(index: number, data: any, previousHash: string = " ") {
+
+   constructor(index: number, data: any, timestamp = String(new Date())) {
       this.Index = index
-      this.Timestamp = new Date()
+      this.Timestamp = timestamp
       this.Data = data
       this.Hash = this.computeHash()
-      this.PreviousHash = previousHash
-      this.Nonce = 0
-      this.Duration = 0
    }
    
 
    computeHash = (): string => {
       return SHA256(
-         this.Index +
-         this.PreviousHash +
-         this.Timestamp +
          JSON.stringify(this.Data) +
-         this.Nonce
+         this.Index +
+         this.Timestamp 
       ).toString();
    }
 
-   proofOfWork = (difficulty: number): void => {
+  /* proofOfWork = (difficulty: number): void => {
       while (
          this.Hash.substring(0, difficulty) !== Array(difficulty + 1).join("0")
       ) {
@@ -40,5 +33,6 @@ export default class CryptoBlock{
          this.Hash = this.computeHash();
       }
    }
+   */
 
 }
